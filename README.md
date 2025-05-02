@@ -1,40 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Habit Tracker - Personal Analytics Dashboard
+📌 Overview
+A modern habit tracking application that helps users monitor daily routines like sleep, water intake, exercise, and screen time. Features interactive charts, streak tracking, and personalized analytics.
 
-## Getting Started
+✨ Features
+Daily habit tracking (sleep, water, exercise, screen time)
 
-First, run the development server:
+Interactive progress charts using Recharts
 
-```bash
+Streak tracking for motivation
+
+Dark/Light mode toggle
+
+Responsive design works on all devices
+
+Add custom habits functionality
+
+Weekly analytics and insights
+
+🚀 How to Run Locally
+Clone the repository
+
+bash
+git clone [repository-url]
+cd habit-tracker
+Install dependencies
+
+bash
+npm install
+# or
+yarn install
+Run the development server
+
+bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open in browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
+🌐 Live Demo
+[Add your live URL here when deployed]
+Example: https://habit-tracker-.netlify.app
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🖱️ How to Use
+Tracking Habits
+Adjust daily values using sliders in "Today's Progress" section
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Submit your check-in with the Daily Check-In button
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+View progress in charts and analytics
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Navigation
+Dashboard: Overview of all habits
 
-## Learn More
+Analytics: Detailed weekly performance
 
-To learn more about Next.js, take a look at the following resources:
+Habits: Manage and add new habits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🛠️ Built With
+Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TypeScript
 
-## Deploy on Vercel
+Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recharts (for data visualization)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Framer Motion (for animations)
+
+📝 Notes
+All data is stored locally (no backend required)
+
+Uses realistic mock data for demonstration
+
+Fully responsive design
+
+📜 License
+MIT
